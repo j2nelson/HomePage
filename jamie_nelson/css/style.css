@@ -1,0 +1,30 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	color: #220477;
+	background-color: #848383;
+}
+
+a {
+	color: #ffffff;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.banner {
+	background-color: #BCBBBB;
+}
+
+@media only screen and (max-width: 991px) {
+	.banner {
+		display: none;
+	}
+}
